@@ -5,7 +5,7 @@ cask "codexgate" do
   name "CodexGate"
   desc "Unofficial Codex folder-access menu-bar companion"
   homepage "https://github.com/karan19/CodexGate"
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
   depends_on arch: :arm64
   app "CodexGate.app"
 end
